@@ -1,0 +1,164 @@
+/*
+ Theme Name:   Alchem Child
+ Theme URI:    http://lumberjackplumber.vickigrunewald.com/alchem-child/
+ Description:  Alchem Child Theme
+ Author:       Team TRIAD
+ Author URI:   http://lumberjackplumber.vickigrunewald.com
+ Template:     alchem
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, three-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  alchem-child
+*/
+
+body {
+    overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #a9212b;
+}
+
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h2, h3, h4 {
+    font-weight: 400
+}
+
+p, ul li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4em
+}
+
+a, a:visited {
+    color: #a9212b;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*-----HEADER STYLES----*/
+img.site-logo {
+    max-height: none;
+    height: auto;
+    max-width: 200px;
+    width: 100%;
+}
+
+@media all and (min-width: 768px) {
+    img.site-logo {
+        max-width: 400px;
+    }
+}
+
+/*-----NAVIGATION STYLES----*/
+#menu-main > li > a > span {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+.fa-caret-down:before {
+    visibility: hidden;
+}
+
+/*@media all and (max-width: 1000px) {
+    .site-nav-toggle {
+        display: block;
+    }
+}*/
+
+
+/*-----BUTTON STYLES----*/
+a.btn-normal, a.magee-btn-normal {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+/*-----GENERAL PAGE STYLES----*/
+.page-title {
+    visibility: hidden;
+}
+
+/*-----HOME PAGE STYLES----*/
+.magee-heading .heading-inner {
+    font-weight: 700;
+}
+
+/*-----ABOUT PAGE STYLES----*/
+.post-7 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/wide_background.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+/*-----CONTACT FORM STYLES----*/
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
+    background-color: #9f9f9f;
+    width: 80%;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #000;
+    line-height: 1.4em;
+}
+
+.wpcf7 p {
+    font-weight: 400;
+    font-family: 'Arvo', serif;
+}
+
+.wpcf7 input[type="submit"], .wpcf7 input[type="reset"] {
+    background-color: #a9212b;
+    color: white;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.5em 2em;
+    width: 80%;
+}
+
+@media all and (min-width: 768px) {
+    .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
+        width: 50%;
+    }
+    .wpcf7 input[type="submit"], .wpcf7 input[type="reset"] {
+        padding: 0.5em 4em;
+        width: 24%;
+    }
+}
+
+span.red_text {
+    color: #a9212b;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #a9212b;
+}
+
+span.wpcf7-not-valid-tip {
+    color: #a9212b;
+}

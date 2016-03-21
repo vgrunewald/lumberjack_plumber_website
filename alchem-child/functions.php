@@ -10,4 +10,14 @@ function theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
+
+/*--Enable Google Fonts--*/
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Arvo:400,700|Raleway:400,500,700,500italic', false );
+}
+
+add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
+
+
 ?>
