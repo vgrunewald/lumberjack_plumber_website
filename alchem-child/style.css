@@ -107,16 +107,83 @@ a.btn-normal, a.magee-btn-normal {
     font-weight: 700;
 }
 
-/*-----ABOUT PAGE STYLES----*/
-.post-7 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/wide_background.jpg);
+@media all and (min-width: 320px) {
+    section#section-1.section.magee-section.alchem-home-section-0 {
+         background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/home_banner_768x507.jpg);
         background-position: top left;
         background-size: auto;
         background-repeat: no-repeat;
     }
 }
 
-/*-----CONTACT FORM STYLES----*/
+@media all and (min-width: 768px) {
+    section#section-1.section.magee-section.alchem-home-section-0 {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/home_banner_3000x584.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
+/*-----ABOUT PAGE STYLES----*/
+@media all and (min-width: 320px) {
+    .post-7 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/about_banner_768x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .post-7 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/about_banner_3000x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+/*-----SERVICES PAGE STYLES----*/
+@media all and (min-width: 320px) {
+    .post-8 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/services_banner_768x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .post-8 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/services_banner_3000x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+/*-----CONTACT PAGE STYLES----*/
+@media all and (min-width: 320px) {
+    .post-12 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/contact_banner_768x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .post-12 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/contact_banner_3000x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
 .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
     background-color: #9f9f9f;
     width: 80%;
