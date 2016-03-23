@@ -117,6 +117,23 @@ a.btn-normal, a.magee-btn-normal {
     color: white;
 }
 
+.metaslider {
+    margin: 2em 0;
+}
+
+.metaslider .slides li img {
+    border: 1px solid #9f9f9f;
+}
+
+.metaslider .flex-control-paging li a.flex-active {
+    background: #a9212b;
+}
+
+.metaslider div.caption-wrap {
+    background: #4f4d4d;
+    opacity: 0.9;
+}
+
 /*-----HOME PAGE STYLES----*/
 .magee-heading .heading-inner {
     font-weight: 700;
@@ -140,6 +157,10 @@ a.btn-normal, a.magee-btn-normal {
         padding-top: 200px;
         padding-bottom: 200px;
     }
+}
+
+#alchem-home-sections #section-5 div h2 strong {
+    color: #a9212b;
 }
 
 /*-----ABOUT PAGE STYLES----*/
@@ -250,37 +271,37 @@ a.btn-normal, a.magee-btn-normal {
     }
 }
 
-.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
-    background-color: #9f9f9f;
-    width: 80%;
-    -webkit-border-radius: 3px 3px 3px 3px;
-    border-radius: 3px 3px 3px 3px;
-    border: 1px solid #000;
-    line-height: 1.4em;
-}
-
 .wpcf7 p {
     font-weight: 400;
     font-family: 'Arvo', serif;
 }
 
-.wpcf7 input[type="submit"], .wpcf7 input[type="reset"] {
-    background-color: #a9212b;
-    color: white;
-    text-transform: uppercase;
-    -webkit-border-radius: 5px 5px 5px 5px;
-    border-radius: 5px 5px 5px 5px;
-    padding: 0.5em 2em;
-    width: 80%;
+@media all and (min-width: 320px) {
+    .wpcf7 input[type="submit"], .wpcf7 input[type="reset"] {
+        background-color: #a9212b;
+        color: white;
+        text-transform: uppercase;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+        padding: 0.5em 2em;
+        width: 100%;
+    }
+    .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
+    background-color: #9f9f9f;
+    width: 100%;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #000;
+    line-height: 1.4em;
+    }
 }
 
-@media all and (min-width: 768px) {
-    .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
-        width: 50%;
-    }
+@media all and (min-width: 700px) {
     .wpcf7 input[type="submit"], .wpcf7 input[type="reset"] {
-        padding: 0.5em 4em;
-        width: 24%;
+        width: 38%;
+    }
+    .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
+    width: 80%;
     }
 }
 
@@ -294,6 +315,10 @@ div.wpcf7-validation-errors {
 
 span.wpcf7-not-valid-tip {
     color: #a9212b;
+}
+
+.wpcf7 div.wpcf7-mail-sent-ok {
+    display: none !important;
 }
 
 /*-----THANK YOU PAGE STYLES----*/
@@ -317,9 +342,31 @@ span.wpcf7-not-valid-tip {
     }
 }
 
+/*-----404 PAGE STYLES----*/
+@media all and (min-width: 320px) {
+    .error404 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/thanks_banner_768_402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+        padding-top: 150px;
+        padding-bottom: 200px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .error404 section.page-title-bar {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/thanks_banner_3000x402.jpg);
+        background-position: top left;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+}
+
 /*-----FOOTER STYLES----*/
 .footer-widget-area {
     border-top: 30px solid #a9212b;
 }
+
 
 
