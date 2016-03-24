@@ -56,9 +56,9 @@ a, a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #a9212b;
 }
-
 
 /*-----HEADER STYLES----*/
 img.site-logo {
@@ -161,6 +161,24 @@ a.btn-normal, a.magee-btn-normal {
 
 #alchem-home-sections #section-5 div h2 strong {
     color: #a9212b;
+}
+
+#alchem-home-sections #section-5 img {
+    border: 5px solid #a9212b;
+
+}
+
+#alchem-home-sections #section-5 div {
+    background-color: #ffffff;
+}
+
+#alchem-home-sections #section-5 div.section-content.container {
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+#alchem-home-sections #section-2 h4{
+    color: #ffffff;
 }
 
 /*-----ABOUT PAGE STYLES----*/
