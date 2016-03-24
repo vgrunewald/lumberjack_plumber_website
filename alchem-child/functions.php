@@ -19,5 +19,4 @@ wp_enqueue_style( 'wpb-google-fonts', 'http://fonts.googleapis.com/css?family=Ar
 
 add_action( 'wp_enqueue_scripts', 'wpb_add_google_fonts' );
 
-
 ?>
