@@ -27,7 +27,6 @@ h1 {
     color: #a9212b;
 }
 
-
 h2 {
     font-size: 2em !important;
 }
@@ -56,7 +55,7 @@ a, a:visited {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #a9212b;
 }
 
@@ -76,6 +75,10 @@ img.site-logo {
 
 div.breadcrumb-trail.breadcrumbs {
     display: none;
+}
+
+.top-bar-info a:hover {
+    color: #fff;
 }
 
 /*-----NAVIGATION STYLES----*/
@@ -99,6 +102,10 @@ div.breadcrumb-trail.breadcrumbs {
 
 li.menu-item.menu-item-search-icon {
     display: none;
+}
+
+li.current-menu-item a {
+    color: #a9212b !important;
 }
 
 /*-----BUTTON STYLES----*/
@@ -155,7 +162,6 @@ section.page-title-bar {
     border-bottom: 30px solid #a9212b;
 }
 
-
 /*-----HOME PAGE STYLES----*/
 .magee-heading .heading-inner {
     font-weight: 700;
@@ -183,7 +189,6 @@ section.page-title-bar {
 
 #alchem-home-sections #section-5 img {
     border: 5px solid #a9212b;
-
 }
 
 #alchem-home-sections #section-5 div {
@@ -212,6 +217,10 @@ section.page-title-bar {
         background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/about_banner_3000x402-1.jpg);
         padding-bottom: 200px;
     }
+}
+
+.post-7 .img-box.fade-in:hover .img-overlay {
+    opacity: 0;
 }
 
 /*-----SERVICES PAGE STYLES----*/
@@ -370,6 +379,11 @@ span.wpcf7-not-valid-tip {
         background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/search_banner_3000x402.jpg);
         padding-bottom: 200px;
     }
+}
+
+/*-----SIDEBAR STYLES----*/
+.widget_nav_menu li.current-menu-item a {
+    border-right: 2px solid #a9212b !important;
 }
 
 /*-----FOOTER STYLES----*/
