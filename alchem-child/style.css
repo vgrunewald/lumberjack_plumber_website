@@ -77,6 +77,13 @@ div.breadcrumb-trail.breadcrumbs {
     display: none;
 }
 
+div.top-bar-info {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em !important;
+    line-height: 1.5em;
+}
+
 .top-bar-info a:hover {
     color: #fff;
 }
@@ -85,6 +92,10 @@ div.breadcrumb-trail.breadcrumbs {
 #menu-main > li > a > span {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+}
+
+#menu-main > li > a:hover {
+    text-decoration: none !important;
 }
 
 .fa-caret-down:before {
@@ -112,14 +123,6 @@ li.current-menu-item a {
 a.btn-normal, a.magee-btn-normal {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-}
-
-.btn-normal, .magee-btn-normal:hover, .btn-normal, .magee-btn-normal:active, .btn-normal, .magee-btn-normal:focus {
-    background-color: #a9212b !important;
-}
-
-.btn-normal:hover {
-    background-color: #961e27 !important;
 }
 
 /*-----GENERAL PAGE STYLES----*/
@@ -199,6 +202,13 @@ section.page-title-bar {
     padding-bottom: 25px;
     padding-left: 25px;
 }
+
+p#signature {
+    text-align: right;
+    font-family: 'Arvo', serif;
+    font-size: 1.2em !important;
+}
+
 
 #alchem-home-sections #section-2 h4{
     color: #ffffff;
@@ -298,14 +308,20 @@ section.page-title-bar {
         border-radius: 5px 5px 5px 5px;
         padding: 0.5em 2em;
         width: 100%;
+        font-family: 'Raleway', sans-serif;
+        text-shadow: 0 1px rgba(0,0,0,.4);
+        border: none;
+    }
+    .wpcf7 input[type="submit"]:hover, .wpcf7 input[type="reset"]:hover {
+        background-color: #961e27 !important;
     }
     .wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
-    background-color: #9f9f9f;
-    width: 100%;
-    -webkit-border-radius: 3px 3px 3px 3px;
-    border-radius: 3px 3px 3px 3px;
-    border: 1px solid #000;
-    line-height: 1.4em;
+        background-color: #ebebeb;
+        width: 100%;
+        -webkit-border-radius: 3px 3px 3px 3px;
+        border-radius: 3px 3px 3px 3px;
+        border: 1px solid #000;
+        line-height: 1.4em;
     }
 }
 
@@ -389,6 +405,17 @@ span.wpcf7-not-valid-tip {
 /*-----FOOTER STYLES----*/
 .footer-widget-area {
     border-top: 30px solid #a9212b;
+}
+
+div.textwidget {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em !important;
+    line-height: 1.5em;
+}
+
+footer .widget-title:after {
+    background-color: #a9212b !important;
 }
 
 
