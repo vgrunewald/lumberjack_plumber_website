@@ -66,13 +66,13 @@ $container  = 'container-fullwidth';
             <h1>No results found.</h1>
 			<p>Please try searching again with different keywords or <a href="http://lumberjackplumber.vickigrunewald.com/contact/">contact us</a> and we'll be happy to assist you.
 
-           <?php
-            ob_start();
-            get_search_form();
-            $my_search_form = ob_get_clean();
-            ?>
+            <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+                <div><input type="text" size="18" value="<?php wp_specialchars($s, 1); ?>" name="s" id="s" />
+                    <input type="submit" id="searchsubmit" value="Search" class="btn" />
+                </div>
+            </form>
 
-		<?php endif; ?>
+            <?php endif; ?>
 
 		</div><!-- #blog-list-wrap -->
 	  </div><!-- #page-content -->

@@ -88,6 +88,10 @@ div.top-bar-info {
     color: #fff;
 }
 
+header {
+    border-bottom: 0.5px solid #E0E0E0;
+}
+
 /*-----NAVIGATION STYLES----*/
 #menu-main > li > a > span {
     font-family: 'Raleway', sans-serif;
@@ -122,9 +126,33 @@ li.current-menu-item a {
 }
 
 /*-----BUTTON STYLES----*/
-a.btn-normal, a.magee-btn-normal {
+a.btn-normal, a.magee-btn-normal, #searchform div input#searchsubmit.btn {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+}
+
+form#searchform div input#s {
+    padding: 0.35em;
+    margin-top: 10px;
+    width: 60%;
+    display: block;
+}
+
+#searchform div input#searchsubmit.btn {
+    background-color: #a9212b;
+    color: white;
+    text-transform: uppercase;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0.5em 2em;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 1px rgba(0,0,0,.4);
+    border: none;
+    margin-top: 1em;
+}
+
+#searchform div input#searchsubmit.btn:hover {
+    background-color: #961e27 !important;
 }
 
 /*-----GENERAL PAGE STYLES----*/
@@ -167,7 +195,7 @@ section.page-title-bar {
     border-bottom: 30px solid #a9212b;
 }
 
-/*-----HOME PAGE STYLES----*/
+/*-----HOMEPAGE STYLES----*/
 .magee-heading .heading-inner {
     font-weight: 700;
 }
@@ -194,12 +222,21 @@ section.page-title-bar {
     }
 }
 
+#alchem-home-sections #section-2 h4{
+    color: #ffffff;
+}
+
 #alchem-home-sections #section-5 div h2 strong {
     color: #a9212b;
 }
 
 #alchem-home-sections #section-5 img {
     border: 5px solid #a9212b;
+    margin-top: 1.5em;
+}
+
+#alchem-home-sections #section-5 div div.col-md-2_5 {
+    text-align: center;
 }
 
 #alchem-home-sections #section-5 div.icon-box.icon-circle {
@@ -221,8 +258,25 @@ p#signature {
     font-size: 1.2em !important;
 }
 
-#alchem-home-sections #section-2 h4{
-    color: #ffffff;
+#alchem-home-sections #section-5 div {
+    margin: auto;
+}
+
+#alchem-home-sections #section-5 div div.magee-feature-box{
+    padding-left: 0px !important;
+}
+
+#alchem-home-sections #section-5 div div.magee-feature-box h3{
+    text-align: center;
+}
+
+@media all and (min-width: 800px) {
+    #alchem-home-sections #section-5 div div.magee-feature-box{
+        padding-left: 65px;
+    }
+    #alchem-home-sections #section-5 div div.magee-feature-box h3{
+    text-align: left;
+    }
 }
 
 /*-----ABOUT PAGE STYLES----*/
