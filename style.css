@@ -279,6 +279,15 @@ p#signature {
     }
 }
 
+@media all and (min-width: 320px) {
+    #alchem-home-sections .alchem-home-section-10 {
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/parallax_desktop_3000.jpg) !important;
+        -webkit-background-size: auto !important;
+        -moz-background-size: auto !important;
+        background-size: auto !important;
+    }
+}
+
 /*-----ABOUT PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-7 section.page-title-bar {
