@@ -323,7 +323,8 @@ p#signature {
 
 @media all and (min-width: 768px) {
     .post-15 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/tankless_banner_3000x402.jpg);
+        /*background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/tankless_banner_3000x402.jpg);*/
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/test_banner5.jpg);/*Edit this*/
         padding-top: 150px;
         padding-bottom: 200px;
     }
@@ -339,7 +340,8 @@ p#signature {
 
 @media all and (min-width: 768px) {
     .post-10 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/repiping_banner_3000x402.jpg);
+        /*background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/repiping_banner_3000x402.jpg);*/
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/test_banner6.jpg);
         padding-bottom: 200px;
     }
 }
