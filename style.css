@@ -202,7 +202,7 @@ section.page-title-bar {
 
 @media all and (min-width: 320px) {
     section#section-1.section.magee-section.alchem-home-section-0 {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/home_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_homepage_768.jpg);
         padding-top: 0px;
         padding-bottom: 170px;
     }
@@ -216,7 +216,7 @@ section.page-title-bar {
 
 @media all and (min-width: 768px) {
     section#section-1.section.magee-section.alchem-home-section-0 {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/home_banner_3000x584.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_home_3000.jpg);
         padding-top: 200px;
         padding-bottom: 250px;
     }
@@ -291,14 +291,14 @@ p#signature {
 /*-----ABOUT PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-7 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/about_banner_thin_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_about_768.jpg);
         padding-top: 150px;
     }
 }
 
 @media all and (min-width: 768px) {
     .post-7 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/Jen_banners_2.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/about.jpg);
         padding-bottom: 200px;
     }
 }
@@ -310,14 +310,14 @@ p#signature {
 /*-----SERVICES PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-8 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/services_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_services_768.jpg);
         padding-top: 150px;
     }
 }
 
 @media all and (min-width: 768px) {
     .post-8 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/Jen_banners_5.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/services.jpg);
         padding-bottom: 200px;
     }
 }
@@ -325,15 +325,14 @@ p#signature {
 /*-----TANKLESS WATER HEATER PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-15 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/tankless_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_tankless_water_heaters_768.jpg);
         padding-top: 50px;
     }
 }
 
 @media all and (min-width: 768px) {
     .post-15 section.page-title-bar {
-        /*background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/tankless_banner_3000x402.jpg);*/
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/test_banner5.jpg);/*Edit this*/
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/tankless_water_heaters.jpg);
         padding-top: 150px;
         padding-bottom: 200px;
     }
@@ -342,15 +341,14 @@ p#signature {
 /*-----REPIPING PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-10 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/repiping_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_repiping_768.jpg);
         padding-top: 150px;
     }
 }
 
 @media all and (min-width: 768px) {
     .post-10 section.page-title-bar {
-        /*background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/repiping_banner_3000x402.jpg);*/
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/test_banner6.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/repiping.jpg);
         padding-bottom: 200px;
     }
 }
@@ -358,14 +356,14 @@ p#signature {
 /*-----CONTACT PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-12 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/contact_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_contact_768.jpg);
         padding-top: 150px;
     }
 }
 
 @media all and (min-width: 768px) {
     .post-12 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/contact_banner_3000x402.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/contact.jpg);
         padding-bottom: 200px;
     }
 }
@@ -431,7 +429,7 @@ span.wpcf7-not-valid-tip {
 /*-----THANK YOU PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .post-68 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/thanks_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_thank_you_768.jpg);
         padding-top: 150px;
         border-bottom: 30px solid #a9212b;
     }
@@ -439,7 +437,7 @@ span.wpcf7-not-valid-tip {
 
 @media all and (min-width: 768px) {
     .post-68 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/thanks_banner_3000x402.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/thank_you.jpg);
         padding-bottom: 200px;
     }
 }
@@ -447,14 +445,14 @@ span.wpcf7-not-valid-tip {
 /*-----404 PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .error404 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/404_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_404_768.jpg);
         padding-top: 100px;
     }
 }
 
 @media all and (min-width: 768px) {
     .error404 section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/404_banner_3000x402.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/404.jpg);
         padding-top: 150px;
         padding-bottom: 200px;
     }
@@ -463,14 +461,14 @@ span.wpcf7-not-valid-tip {
 /*-----SEARCH RESULTS PAGE STYLES----*/
 @media all and (min-width: 320px) {
     .search section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/search_banner_768x250.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/lumberjack_plumbing_search_768.jpg);
         padding-top: 150px;
     }
 }
 
 @media all and (min-width: 768px) {
     .search section.page-title-bar {
-        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/03/search_banner_3000x402.jpg);
+        background-image: url(http://lumberjackplumber.vickigrunewald.com/wp-content/uploads/2016/04/search_results.jpg);
         padding-bottom: 200px;
     }
 }

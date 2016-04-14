@@ -14,17 +14,13 @@ Stock Photo Information:
 
 Multiple Pages: 
 
-- Banner image, free for personal and commercial use, no attribution required. https://www.pexels.com/photo/wood-nature-forest-trees-4959/
+- Banner image, free for personal and commercial use, no attribution required. https://pixabay.com/en/water-pipe-wall-pipe-brick-518030/
 
 - Wood Grain image, free for personal and commercial use, no attribution required. http://edgewaysdesign.co.uk/resources/free-wood-sample-pattern/ 
 
-Home Page: 
-
-- Placeholder antique lumberjack photo, placeholder ONLY, not intended for permanent use, would swap out for actual photo of Nate’s grandfather. http://www.rootsweb.ancestry.com/~wioconto/ClaudeMcLeanLegendaryLumberjack.jpg 
-
 Repiping Page: 
 
-- Copper pipes photo, free for commercial use, no attribution required https://pixabay.com/en/copper-coupler-copper-pipe-coupler-814472/
+- Copper pipes photo, free for commercial use, no attribution required. https://pixabay.com/en/copper-coupler-copper-pipe-coupler-814472/
 
 
 Notes: 
